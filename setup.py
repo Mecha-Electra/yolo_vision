@@ -28,7 +28,8 @@ setup(
         'console_scripts': [
             'detector_node = yolo_detector.detector_node:main',
             'crowd_action_server = yolo_detector.crowd_detector_yolo:main', # Renomeado para clareza
-            'mission_client = yolo_detector.mission_client:main', # Novo cliente
+            'mission_client = yolo_detector.mission_client:main',
+            'person_detector = yolo_detector.person_detector:main',
         ],
     },
 )
